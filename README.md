@@ -25,3 +25,5 @@ Sometimes Map-Reduce can be applicable to a single computer with multiple CPUs o
 Say we have a computer with 4 computing cores. 
 So we may split the training set and send the subsets to different cores within a single computer and divide the work load.
 Each of the cores carry out the sum over one quarter of our training set and the individual results are combined to get the summation over the entire training set.
+
+![alt text](https://github.com/thecodebuzz/FileSizePOC/blob/master/TheCodebuzz.png?raw=true)
