@@ -153,5 +153,5 @@ if __name__ == '__main__':
     plt.plot(x, multi, color="green", label='multiprocessing')
     plt.plot(x,multith,color="red",label='multithreading')
     plt.legend()
-    # plt.savefig("grape_of_run_time_gaine1.png",dpi=72)
+    plt.savefig("grape_of_run_time_gaine1.png",dpi=72)
     plt.show()
